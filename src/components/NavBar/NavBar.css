@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.nav{
+    background-color: #EEEEEE;
+    border-radius: 10rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    text-decoration: none;
+    display: flex;
+    margin: 1rem 6rem;
+    font-family: 'Hubballi', cursive;
+    font-size: 2rem;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.header{
+    height: 8rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.nav{
+    padding: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.Brand{
+    padding: 1rem;
+}
+
+.imgNet{
+    padding: 0.5rem;
+}
+
+.facebook{
+    margin-right: 2rem;
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}

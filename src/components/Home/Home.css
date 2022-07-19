@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Home-content{
+    z-index: 5;
+}
+
+#TitleHome{
+    font-family: 'Hubballi', cursive;
+    font-size: 8rem;
+    margin-bottom: 3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+#homeButton{
+    margin: 0 5rem;
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #1CE29B;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+}
+
+#homeButton:hover{
+    background-color: #3DF39C;
+}
+
+.Button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeButton:active{
+    padding: 0.8rem 1.8rem;
+}
+
+.circle1{
+    background-color: #3DF39C;
+    border-radius: 0% 0% 0% 100%;
+    width: 30rem;
+    height: 35rem;
+    top: 0rem;
+    right: 0rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.circle2{
+    background-color: #1CE29B;
+    border-radius: 50%;
+    width: 50rem;
+    height: 50rem;
+    top: 0rem;
+    right: 0rem;
+    position: absolute;
+}
+
+@media (max-width: 1200px){
+    .circle1, .circle2{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    #TitleHome{     
+        font-size: 6rem;
+        margin-bottom: 3rem;
+    }
+    
+    #homeButton{
+        font-size: 1.5rem;
+    }
+}

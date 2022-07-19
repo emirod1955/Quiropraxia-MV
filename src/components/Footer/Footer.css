@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.Footer{
+    height: 5vh;
+    width: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialNetworks{
+    position: absolute;
+    right: 1rem;
+}
+
+#instagram, #facebook{
+    margin: 0 1rem;
+}
+
+#socialIcons{
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 480px){
+    .socialNetworks{
+        position: relative;
+        right: 0rem;
+    }
+
+    .Footer{
+        justify-content: space-around;
+    }
+}
