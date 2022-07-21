@@ -16,7 +16,7 @@ function Home (){
                 <h1 id="TitleHome">QUIROPRAXIA MV</h1>
                 <div className="buttons">
                     <Link to="/reservar" className="Button-container"><input id="homeButton" type="button" value="Reservar" /></Link>
-                    <Link to="nosotros" className="Button-container"><input id="homeButton" type="button" value="Nosotros" /></Link>
+                    <Link to="/nosotros" className="Button-container"><input id="homeButton" type="button" value="Nosotros" /></Link>
                 </div>
             </div>
         </div>
