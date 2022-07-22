@@ -45,4 +45,9 @@ body{
     .Footer{
         justify-content: space-around;
     }
+
+    #socialIcons{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 }

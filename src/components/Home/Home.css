@@ -100,4 +100,8 @@ body{
     #homeButton{
         font-size: 1.5rem;
     }
+
+    #homeButton{
+        margin: 0 3rem;
+    }
 }
